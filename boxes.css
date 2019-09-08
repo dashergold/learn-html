@@ -1,0 +1,35 @@
+#box1 {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    left: 100px;
+    top: 100px;
+}
+
+#box2 {
+    background-color: red;
+    color: yellow;
+    left: 110px;
+    top: 110px;
+    z-index: 30;
+}
+
+#box3 {
+    background-color: rgb(0, 255, 64);
+    color: rgb(255, 255, 255);
+    left: 120px;
+    top: 120px;
+    z-index: 30;
+}
+
+#arena {
+    position: relative;
+    height: 1000px;
+    background-color: #808080
+}
+
+.box {
+    display: block;
+    position: absolute;
+    height: 100px;
+}
